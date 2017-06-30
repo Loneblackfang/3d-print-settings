@@ -2,17 +2,14 @@
   "DocumentVersion": 201606271,
   "ID": "TAZ 5-4709220517150720",
   "StagedUserSettings": {
-    "retract_length": "1.5",
     "max_fan_speed": "25",
     "min_fan_speed": "25",
-    "layer_name": "Ninjaflex",
     "layer_height": "0.25",
     "first_layer_height": "0.25",
-    "perimeter_start_end_overlap": "50",
     "perimeters": "3",
+    "perimeter_start_end_overlap": "50",
     "filament_cost": "38.52",
-    "infill_speed": "200",
-    "top_solid_infill_speed": "200",
+    "layer_name": "Ninjaflex",
     "first_layer_speed": "150"
   },
   "Macros": [
@@ -221,14 +218,18 @@
     "support_air_gap": "0.6",
     "external_perimeter_speed": "100%",
     "support_material_angle": "60",
-    "perimeter_speed": "200",
-    "bed_temperature": "0",
+    "perimeter_speed": "150",
+    "infill_speed": "150",
     "raft_air_gap": "0.5",
     "external_perimeters_first": "0",
     "support_material_interface_layers": "0mm",
-    "feedrate_ratio": "1.5",
-    "extrusion_ratio": "1.5",
-    "temperature": "215"
+    "feedrate_ratio": "0.7",
+    "extrusion_ratio": "1",
+    "top_solid_infill_speed": "100",
+    "temperature": "215",
+    "extrusion_multiplier": "1",
+    "retract_length": "0.5",
+    "bed_temperature": "0"
   },
   "MaterialLayers": [
     {
