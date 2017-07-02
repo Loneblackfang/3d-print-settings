@@ -2,15 +2,10 @@
   "DocumentVersion": 201606271,
   "ID": "TAZ 5-4709220517150720",
   "StagedUserSettings": {
-    "max_fan_speed": "25",
-    "min_fan_speed": "25",
     "layer_height": "0.25",
-    "first_layer_height": "0.25",
-    "perimeters": "3",
     "perimeter_start_end_overlap": "50",
     "filament_cost": "38.52",
-    "layer_name": "Ninjaflex",
-    "first_layer_speed": "150"
+    "layer_name": "Ninjaflex"
   },
   "Macros": [
     {
@@ -195,7 +190,7 @@
   },
   "ActiveQualityKey": "",
   "MaterialSettingsKeys": [
-    "9a657b84-d953-4143-9f05-41100bd4a4d2"
+    "9efa8345-cb49-4347-a928-1a61870eab5a"
   ],
   "UserLayer": {
     "printer_name": "Lulzbot TAZ 5",
@@ -208,7 +203,7 @@
     "DS-XPSL004_com_port": "COM3",
     "fill_density": "100%",
     "infill_type": "LINES",
-    "support_type": "LINES",
+    "support_type": "Lines",
     "support_material_create_perimeter": "0",
     "support_material_create_internal_support": "1",
     "support_material": "0",
@@ -218,18 +213,25 @@
     "support_air_gap": "0.6",
     "external_perimeter_speed": "100%",
     "support_material_angle": "60",
-    "perimeter_speed": "150",
-    "infill_speed": "150",
+    "perimeter_speed": "50",
+    "infill_speed": "50",
     "raft_air_gap": "0.5",
     "external_perimeters_first": "0",
     "support_material_interface_layers": "0mm",
-    "feedrate_ratio": "0.7",
+    "feedrate_ratio": "1.22",
     "extrusion_ratio": "1",
-    "top_solid_infill_speed": "100",
-    "temperature": "215",
+    "top_solid_infill_speed": "50",
+    "temperature": "225",
     "extrusion_multiplier": "1",
     "retract_length": "0.5",
-    "bed_temperature": "0"
+    "bed_temperature": "40",
+    "layer_height": "0.25",
+    "travel_speed": "175",
+    "perimeters": "2",
+    "first_layer_height": "0.25",
+    "first_layer_speed": "50",
+    "min_fan_speed": "100",
+    "max_fan_speed": "100"
   },
   "MaterialLayers": [
     {
@@ -563,6 +565,10 @@
       "layer_etag": "",
       "layer_source": "",
       "first_layer_speed": "150"
+    },
+    {
+      "layer_name": "Taz 5 settings",
+      "layer_id": "9efa8345-cb49-4347-a928-1a61870eab5a"
     }
   ],
   "QualityLayers": [
